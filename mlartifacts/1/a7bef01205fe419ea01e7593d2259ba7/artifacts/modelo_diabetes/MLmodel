@@ -1,0 +1,21 @@
+artifact_path: modelo_diabetes
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.10
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+mlflow_version: 2.22.0
+model_size_bytes: 1531
+model_uuid: ab83beb363194a379ab52807c67ea301
+prompts: null
+run_id: a7bef01205fe419ea01e7593d2259ba7
+utc_time_created: '2025-05-23 14:46:27.936671'
